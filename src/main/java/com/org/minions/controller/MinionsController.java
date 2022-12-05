@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 //Controller
+
 @RestController
+//mapping
 @RequestMapping("/api")
 public class MinionsController {
     @Autowired
